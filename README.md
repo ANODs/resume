@@ -1,6 +1,6 @@
 # Timofey Timoshkin - Resume
 
-Source and generated PDF versions of my resume in Russian, English and Italian. Each language is available in dark and light themes inspired by [timoshkin.dev](https://timoshkin.dev).
+Source, Markdown and generated PDF versions of my resume in Russian, English and Italian. Each PDF language is available in dark and light themes inspired by [timoshkin.dev](https://timoshkin.dev).
 
 ## Ready-to-use PDFs
 
@@ -9,6 +9,10 @@ Source and generated PDF versions of my resume in Russian, English and Italian. 
 | Русский | [Тёмная версия](output/pdf/Тимофей_Тимошкин_Резюме_Тёмное.pdf) | [Светлая версия](output/pdf/Тимофей_Тимошкин_Резюме_Светлое.pdf) |
 | English | [Dark version](output/pdf/Timofey_Timoshkin_Resume_Dark.pdf) | [Light version](output/pdf/Timofey_Timoshkin_Resume_Light.pdf) |
 | Italiano | [Versione scura](output/pdf/Timofey_Timoshkin_Curriculum_Scuro.pdf) | [Versione chiara](output/pdf/Timofey_Timoshkin_Curriculum_Chiaro.pdf) |
+
+## Markdown
+
+- [Русская версия «Вайбкодер»](output/markdown/Тимофей_Тимошкин_Резюме_Вайбкодер.md)
 
 ## Build locally
 
@@ -32,8 +36,11 @@ Generated files are written to `output/pdf/`. The builder uses Segoe UI on Windo
 |   |-- build_resume_en.py
 |   |-- build_resume_en_light.py
 |   `-- build_resume_multilang.py
-`-- output/pdf/
-    `-- six generated resume PDFs
+`-- output/
+    |-- markdown/
+    |   `-- editable Russian Markdown resume
+    `-- pdf/
+        `-- six generated resume PDFs
 ```
 
 ## Contacts
