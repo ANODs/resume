@@ -377,7 +377,7 @@ def build_en() -> None:
             [
                 job_header(
                     "TEXSOFT / product startup - Lead Product Developer -> Web Information Systems Developer",
-                    "07.2026 - Present",
+                    "07.2025 - 07.2026",
                     st,
                 ),
                 bullet(
@@ -399,8 +399,8 @@ def build_en() -> None:
                     st,
                 ),
                 bullet(
-                    "Took the product from an early stage to a repeatable team delivery process; ready for the next "
-                    "product with broader ownership.",
+                    "Took the product from an early stage to a repeatable team delivery process and concluded the "
+                    "engagement after the startup became a standalone company.",
                     st,
                 ),
                 Spacer(1, 1.2 * mm),

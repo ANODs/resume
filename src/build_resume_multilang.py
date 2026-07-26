@@ -22,18 +22,19 @@ DATA = {
             "в GitLab и выпускал продукты end-to-end."
         ),
         "experience_h": "Опыт и продукты",
-        "tex_title": "TEXSOFT / продуктовый стартап - ведущий продуктовый разработчик -> разработчик веб-информационных систем",
-        "tex_date": "07.2026 - н.в.",
+        "tex_title": "TEXSOFT / продуктовый стартап - ведущий продуктовый разработчик -> веб-разработчик информационных систем",
+        "tex_date": "07.2025 - 07.2026",
         "tex_bullets": [
             "Пришёл на стадии стартапа как ведущий продуктовый разработчик: отвечал за запуск с нуля, архитектуру, "
             "приоритеты и delivery. После запуска стартап стал самостоятельной компанией; официальная должность - "
-            "разработчик веб-информационных систем.",
+            "веб-разработчик информационных систем.",
             "Разработал коммерческий фронтенд мессенджера в реальном времени по Feature-Sliced Design: Next.js 15, "
             "React 18, TypeScript, TanStack Query и Zustand; сообщения по WebSocket, аудио- и видеозвонки LiveKit, "
             "предпросмотр файлов, адаптивные чаты и группы.",
             "Работал в коммерческом спринтовом цикле: планирование и трекинг в Jira, merge request и code review в "
             "GitLab, E2E-тесты Playwright, GitLab CI / CD, multi-stage Docker-сборки и координация релизов.",
-            "Провёл продукт от ранней стадии до повторяемого командного процесса разработки и выпуска.",
+            "Провёл продукт от ранней стадии до повторяемого командного процесса разработки и выпуска; завершил "
+            "работу после того, как стартап стал самостоятельной компанией.",
         ],
         "ind_title": "Собственные продукты - основатель / продуктовый разработчик",
         "ind_date": "2024 - н.в.",
@@ -96,7 +97,7 @@ DATA = {
         ),
         "experience_h": "Esperienza e prodotti",
         "tex_title": "TEXSOFT / startup di prodotto - Lead Product Developer -> Sviluppatore di sistemi informativi web",
-        "tex_date": "07.2026 - Presente",
+        "tex_date": "07.2025 - 07.2026",
         "tex_bullets": [
             "Entrato nella fase startup come lead product developer, responsabile del lancio zero-to-one, "
             "dell'architettura, delle priorità e della delivery. Dopo il lancio la startup è diventata un'azienda "
@@ -106,7 +107,8 @@ DATA = {
             "anteprime file e flussi responsive per chat e gruppi.",
             "Lavorato in un ciclo commerciale a sprint: pianificazione e tracciamento in Jira, merge request e code "
             "review in GitLab, test E2E con Playwright, GitLab CI / CD, build Docker multi-stage e coordinamento dei rilasci.",
-            "Portato il prodotto da una fase iniziale a un processo di delivery di team ripetibile.",
+            "Portato il prodotto da una fase iniziale a un processo di delivery di team ripetibile; conclusa la "
+            "collaborazione dopo che la startup è diventata un'azienda autonoma.",
         ],
         "ind_title": "Prodotti indipendenti - Fondatore / Product Engineer",
         "ind_date": "2024 - Presente",
