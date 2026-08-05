@@ -23,7 +23,7 @@ DATA = {
         ),
         "experience_h": "Опыт и продукты",
         "tex_title": "TEXSOFT / продуктовый стартап - ведущий продуктовый разработчик -> веб-разработчик информационных систем",
-        "tex_date": "07.2025 - 07.2026",
+        "tex_date": "06.2025 - 07.2026",
         "tex_bullets": [
             "Пришёл на стадии стартапа как ведущий продуктовый разработчик: отвечал за запуск с нуля, архитектуру, "
             "приоритеты и delivery. После запуска стартап стал самостоятельной компанией; официальная должность - "
@@ -97,7 +97,7 @@ DATA = {
         ),
         "experience_h": "Esperienza e prodotti",
         "tex_title": "TEXSOFT / startup di prodotto - Lead Product Developer -> Sviluppatore di sistemi informativi web",
-        "tex_date": "07.2025 - 07.2026",
+        "tex_date": "06.2025 - 07.2026",
         "tex_bullets": [
             "Entrato nella fase startup come lead product developer, responsabile del lancio zero-to-one, "
             "dell'architettura, delle priorità e della delivery. Dopo il lancio la startup è diventata un'azienda "

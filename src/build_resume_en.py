@@ -377,7 +377,7 @@ def build_en() -> None:
             [
                 job_header(
                     "TEXSOFT / product startup - Lead Product Developer -> Web Information Systems Developer",
-                    "07.2025 - 07.2026",
+                    "06.2025 - 07.2026",
                     st,
                 ),
                 bullet(
