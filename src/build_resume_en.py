@@ -84,8 +84,8 @@ def styles() -> dict[str, ParagraphStyle]:
             "DarkBody",
             parent=base["Normal"],
             fontName="Segoe",
-            fontSize=8.25,
-            leading=10.65,
+            fontSize=7.9,
+            leading=10.1,
             textColor=WHITE,
             spaceAfter=1,
         ),
@@ -93,8 +93,8 @@ def styles() -> dict[str, ParagraphStyle]:
             "DarkBodySmall",
             parent=base["Normal"],
             fontName="Segoe",
-            fontSize=7.8,
-            leading=9.8,
+            fontSize=7.45,
+            leading=9.3,
             textColor=WHITE,
         ),
         "job": ParagraphStyle(
@@ -128,28 +128,28 @@ def styles() -> dict[str, ParagraphStyle]:
             "DarkBullet",
             parent=base["Normal"],
             fontName="Segoe",
-            fontSize=7.8,
-            leading=9.9,
+            fontSize=7.4,
+            leading=9.3,
             textColor=SOFT,
             leftIndent=9,
             firstLineIndent=-6,
             bulletIndent=0,
-            spaceAfter=1.15,
+            spaceAfter=0.8,
         ),
         "skill_label": ParagraphStyle(
             "DarkSkillLabel",
             parent=base["Normal"],
             fontName="Segoe-Bold",
-            fontSize=7.5,
-            leading=9.3,
+            fontSize=7.05,
+            leading=8.7,
             textColor=BLACK,
         ),
         "skill_text": ParagraphStyle(
             "DarkSkillText",
             parent=base["Normal"],
             fontName="Segoe",
-            fontSize=7.45,
-            leading=9.35,
+            fontSize=7.05,
+            leading=8.75,
             textColor=WHITE,
         ),
     }
@@ -292,8 +292,8 @@ def skill_table_en(st):
             "Framer Motion, Three.js / R3F, Recharts, Lottie, REST / OpenAPI, SSE, LiveKit / WebRTC, Telegram Mini Apps, TON / TonConnect",
         ),
         (
-            "Supporting backend",
-            "Node.js, Go, Prisma / GORM, PostgreSQL, Redis, JWT, cron",
+            "Backend and systems",
+            "Node.js, Go, Prisma / GORM, PostgreSQL, Redis, JWT, cron; Zig, TCP/IP, TLS 1.3, WebRTC, MCP",
         ),
         (
             "Delivery and quality",
@@ -317,8 +317,8 @@ def skill_table_en(st):
                 ("RIGHTPADDING", (0, 0), (0, -1), 2 * mm),
                 ("LEFTPADDING", (1, 0), (1, -1), 3 * mm),
                 ("RIGHTPADDING", (1, 0), (1, -1), 1 * mm),
-                ("TOPPADDING", (0, 0), (-1, -1), 1.15 * mm),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 1.15 * mm),
+                ("TOPPADDING", (0, 0), (-1, -1), 1.0 * mm),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 1.0 * mm),
             ]
         )
     )
@@ -364,7 +364,8 @@ def build_en() -> None:
             "Frontend engineer and product developer with commercial experience. Building web products since 2018, "
             "taking them from zero to MVP and an operating business. Core expertise in React, Next.js, TypeScript "
             "and frontend architecture. Worked in sprint-based product teams, managed Jira tasks, reviewed merge "
-            "requests in GitLab and shipped products end-to-end.",
+            "requests in GitLab and shipped products end-to-end. Since 2026 also building open-source systems "
+            "software in Zig.",
             st,
         ),
         Spacer(1, 1.6 * mm),
@@ -382,8 +383,8 @@ def build_en() -> None:
                 ),
                 bullet(
                     "Joined at the startup stage as lead product developer, owning zero-to-one launch, architecture, "
-                    "prioritization and delivery. After launch, the startup became a standalone company; formal role: "
-                    "Web Information Systems Developer.",
+                    "prioritization and delivery up to a repeatable team process; left after the startup became a "
+                    "standalone company (formal role: Web Information Systems Developer).",
                     st,
                 ),
                 bullet(
@@ -398,12 +399,36 @@ def build_en() -> None:
                     "coordination.",
                     st,
                 ),
+                Spacer(1, 1.2 * mm),
+            ]
+        )
+    )
+
+    story.append(
+        KeepTogether(
+            [
+                job_header("Open-source systems software - Author / Systems Engineer", "2026 - Present", st),
+                Paragraph(
+                    f'<a href="https://blackwall.timoshkin.dev" color="{ACCENT_HEX}"><b>BLACKWALL</b></a>',
+                    st["subtitle"],
+                ),
                 bullet(
-                    "Took the product from an early stage to a repeatable team delivery process and concluded the "
-                    "engagement after the startup became a standalone company.",
+                    "Open-source VPN client in Zig with its own route for every app: VLESS with REALITY, Trojan, "
+                    "Shadowsocks and VMess; the TCP/IP stack, TLS 1.3 and HTTP/2 are written from scratch. macOS, "
+                    "Windows, Linux and Android from one codebase; a release is one 3 to 14 MB file with signed updates.",
                     st,
                 ),
-                Spacer(1, 1.2 * mm),
+                Paragraph(
+                    f'<a href="https://github.com/ANODs/RDC" color="{ACCENT_HEX}"><b>RDC</b></a>',
+                    st["subtitle"],
+                ),
+                bullet(
+                    "Remote desktop in Zig for people and AI agents: any browser connects by a link or a 9-digit code, "
+                    "peer to peer over WebRTC with ICE, DTLS and SCTP written in Zig; also an MCP server for Claude, "
+                    "Codex or ChatGPT. The whole app is a download of about 600 KB.",
+                    st,
+                ),
+                Spacer(1, 1.1 * mm),
             ]
         )
     )
@@ -424,8 +449,8 @@ def build_en() -> None:
                     st,
                 ),
                 bullet(
-                    "The graduation project was selected among the top six projects at the final demo day of the "
-                    "Startup as a Thesis track at ROSBIOTECH (June 2025).",
+                    "Graduation project: selected among the top six at the final demo day of the Startup as a Thesis "
+                    "track at ROSBIOTECH (June 2025).",
                     st,
                 ),
                 Paragraph(f'<a href="https://loot.gifts" color="{ACCENT_HEX}"><b>loot.gifts</b></a>', st["subtitle"]),
@@ -436,11 +461,8 @@ def build_en() -> None:
                 ),
                 bullet(
                     "Integrated the frontend with a Go API backed by PostgreSQL / Redis and shipped through Docker / "
-                    "Dokploy; generated 44.3K search impressions and 4.5K visits in one month.",
-                    st,
-                ),
-                bullet(
-                    "Validated acquisition, ad monetization and unit economics with real traffic and my own budget.",
+                    "Dokploy; 44.3K search impressions and 4.5K visits in one month. Validated acquisition, ad "
+                    "monetization and unit economics with real traffic and my own budget.",
                     st,
                 ),
                 Paragraph("<b>@pilemidabot</b>", st["subtitle"]),
@@ -503,11 +525,8 @@ def build_en() -> None:
                 job_header("ROSBIOTECH - engineering lab and teaching", "2023 - 2026", st),
                 bullet(
                     "Laboratory assistant in engineering, prototyping and additive technologies; taught programming "
-                    "at the university technopark (10.2023 - 07.2024).",
-                    st,
-                ),
-                bullet(
-                    "Part-time instructor at the International College of Technology (02.2026 - 03.2026).",
+                    "at the university technopark (10.2023 - 07.2024). Part-time instructor at the International "
+                    "College of Technology (02.2026 - 03.2026).",
                     st,
                 ),
                 Spacer(1, 0.8 * mm),
@@ -518,7 +537,10 @@ def build_en() -> None:
     story.extend(
         [
             Paragraph(
-                "<b>Additional experience:</b> web studio - first commercial team experience, 2 months in summer 2019.",
+                "<b>Other work:</b> pinkyk.ink - booking site for a private nail artist, static HTML with GSAP and SEO "
+                "markup, live in one day (2026); researched.xyz - crypto wallet research product on Next.js; ALT - RUB / "
+                "USDT exchange interface; blueberry.productions - artist site on the Spotify API; web studio - first "
+                "commercial team experience, 2 months in summer 2019.",
                 st["body_small"],
             ),
             Spacer(1, 1.4 * mm),

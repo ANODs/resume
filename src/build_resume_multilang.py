@@ -18,24 +18,34 @@ DATA = {
         "profile": (
             "Фронтенд-разработчик и продуктовый разработчик с коммерческим опытом. Создаю веб-продукты с 2018 года: "
             "от идеи и MVP до работающего бизнеса. Основная экспертиза - React, Next.js, TypeScript и архитектура "
-            "фронтенда. Работал в продуктовых командах по спринтам, вёл задачи в Jira, проводил ревью merge request "
-            "в GitLab и выпускал продукты end-to-end."
+            "фронтенда. Работал в продуктовых командах по спринтам: задачи в Jira, ревью merge request в GitLab, "
+            "выпуск продуктов end-to-end. С 2026 года пишу и открытое системное ПО на Zig."
         ),
         "experience_h": "Опыт и продукты",
         "tex_title": "TEXSOFT / продуктовый стартап - ведущий продуктовый разработчик -> веб-разработчик информационных систем",
         "tex_date": "06.2025 - 07.2026",
         "tex_bullets": [
             "Пришёл на стадии стартапа как ведущий продуктовый разработчик: отвечал за запуск с нуля, архитектуру, "
-            "приоритеты и delivery. После запуска стартап стал самостоятельной компанией; официальная должность - "
-            "веб-разработчик информационных систем.",
+            "приоритеты и delivery до повторяемого командного процесса; ушёл, когда стартап стал отдельной "
+            "компанией (официально - веб-разработчик информационных систем).",
             "Разработал коммерческий фронтенд мессенджера в реальном времени по Feature-Sliced Design: Next.js 15, "
             "React 18, TypeScript, TanStack Query и Zustand; сообщения по WebSocket, аудио- и видеозвонки LiveKit, "
             "предпросмотр файлов, адаптивные чаты и группы.",
             "Работал в коммерческом спринтовом цикле: планирование и трекинг в Jira, merge request и code review в "
             "GitLab, E2E-тесты Playwright, GitLab CI / CD, multi-stage Docker-сборки и координация релизов.",
-            "Провёл продукт от ранней стадии до повторяемого командного процесса разработки и выпуска; завершил "
-            "работу после того, как стартап стал самостоятельной компанией.",
         ],
+        "oss_title": "Открытое системное ПО - автор / системный инженер",
+        "oss_date": "2026 - н.в.",
+        "blackwall": (
+            "VPN-клиент на Zig со своим маршрутом для каждого приложения: VLESS с REALITY, Trojan, Shadowsocks и "
+            "VMess; стек TCP/IP, TLS 1.3 и HTTP/2 написаны с нуля. macOS, Windows, Linux и Android из одного кода; "
+            "релиз - один файл от 3 до 14 МБ с подписанными обновлениями."
+        ),
+        "rdc": (
+            "Удалённый рабочий стол на Zig для людей и AI-агентов: любой браузер подключается по ссылке или "
+            "9-значному коду, напрямую по WebRTC с ICE, DTLS и SCTP на Zig; он же MCP-сервер для Claude, Codex и "
+            "ChatGPT. Всё приложение весит около 600 КБ."
+        ),
         "ind_title": "Собственные продукты - основатель / продуктовый разработчик",
         "ind_date": "2024 - н.в.",
         "favor_suffix": "(favor.lol -> favor.deals)",
@@ -43,15 +53,15 @@ DATA = {
             "Развил реферальное Web3-приложение до работающего маркетплейса контрактов и сделок внутри Telegram: "
             "Next.js, интеграция с Telegram, карточки контрактов, прямые и escrow-сделки, SEO-страницы, импорт "
             "Telegram-контента и гибридная монетизация.",
-            "Дипломный проект вошёл в шесть лучших на финальном демо-дне программы Стартап как диплом в РОСБИОТЕХе "
-            "(июнь 2025 года).",
+            "Дипломный проект: вошёл в шесть лучших на финальном демо-дне программы Стартап как диплом в "
+            "РОСБИОТЕХе (июнь 2025 года).",
         ],
         "loot_bullets": [
             "Вместе с backend-партнёром запустил рекламный Telegram-продукт, полностью отвечая за фронтенд на "
             "Next.js / TypeScript; до 3 822 пользователей в месяц и 2 000 выполненных целевых действий.",
             "Интегрировал фронтенд с Go API, PostgreSQL и Redis; развернул через Docker / Dokploy. За один месяц "
-            "получено 44,3 тыс. показов в поиске и 4,5 тыс. визитов.",
-            "Проверил привлечение, рекламную монетизацию и юнит-экономику на реальном трафике и собственном бюджете.",
+            "44,3 тыс. показов в поиске и 4,5 тыс. визитов. Проверил привлечение, рекламную монетизацию и "
+            "юнит-экономику на реальном трафике и собственном бюджете.",
         ],
         "pilemida": "Вместе с партнёром разработал фронтенд Telegram Mini App; команда прошла путь от идеи до рабочего релиза за 3 дня.",
         "hostfi_title": "hostfi.app - видеосвязь в реальном времени",
@@ -65,21 +75,27 @@ DATA = {
         "ros_title": "РОСБИОТЕХ - инженерная лаборатория и преподавание",
         "ros_date": "2023 - 2026",
         "ros_bullets": [
-            "Лаборант в сфере инженерии, прототипирования и аддитивных технологий; преподавал программирование в университетском технопарке (10.2023 - 07.2024).",
-            "Преподаватель по совместительству в Международном колледже технологий (02.2026 - 03.2026).",
+            "Лаборант в сфере инженерии, прототипирования и аддитивных технологий; преподавал программирование в "
+            "университетском технопарке (10.2023 - 07.2024). Преподаватель по совместительству в Международном "
+            "колледже технологий (02.2026 - 03.2026).",
         ],
-        "additional": "<b>Дополнительный опыт:</b> веб-студия - первый коммерческий опыт в команде, 2 месяца летом 2019 года.",
+        "additional": (
+            "<b>Другие работы:</b> pinkyk.ink - сайт записи к частному мастеру маникюра, статический HTML с GSAP и "
+            "SEO-разметкой, запущен за один день (2026); researched.xyz - продукт для сравнения криптокошельков на "
+            "Next.js; ALT - интерфейс обмена RUB / USDT; blueberry.productions - сайт артиста на Spotify API; "
+            "веб-студия - первый коммерческий опыт в команде, 2 месяца летом 2019 года."
+        ),
         "skills_h": "Технические навыки",
         "skills": [
             ("Основной фронтенд", "TypeScript, React 18 / 19, Next.js 15 / 16, App Router, SSR / ISR, HTML5, CSS, Tailwind CSS, Vite"),
             ("Архитектура фронтенда", "Feature-Sliced Design (FSD), TanStack Query, Zustand, Zod, React Hook Form, компонентные системы, адаптивный UI / UX"),
             ("UI и интеграции", "Framer Motion, Three.js / R3F, Recharts, Lottie, REST / OpenAPI, SSE, LiveKit / WebRTC, Telegram Mini Apps, TON / TonConnect"),
-            ("Смежный backend", "Node.js, Go, Prisma / GORM, PostgreSQL, Redis, JWT, cron"),
+            ("Backend и системное ПО", "Node.js, Go, Prisma / GORM, PostgreSQL, Redis, JWT, cron; Zig, TCP/IP, TLS 1.3, WebRTC, MCP"),
             ("Delivery и качество", "Git / GitLab, merge request, code review, Jira, Playwright E2E, GitLab CI / CD, Docker / Compose, Dokploy"),
-            ("AI-процесс", "План в Gemini / Antigravity -> ручная проверка и дополнение MD-плана -> реализация в Codex -> ревью и правки git diff -> независимое ревью агентом Codex -> проверка замечаний и исправление подтверждённых проблем -> открытие MR"),
+            ("AI-процесс", "План в Gemini / Antigravity -> ручная проверка и дополнение MD-плана -> реализация в Codex -> ревью и правки git diff -> независимое ревью агентом Codex -> исправление подтверждённых замечаний -> MR"),
         ],
         "education_h": "Образование",
-        "edu_1": "<b>Российский биотехнологический университет (РОСБИОТЕХ)</b> - обучение в университете; Favor как дипломный проект",
+        "edu_1": "<b>Российский биотехнологический университет (РОСБИОТЕХ)</b> - обучение; дипломный проект Favor",
         "edu_2_prefix": "<b>Школа программистов</b>",
         "edu_2_suffix": "- фундаментальная подготовка",
         "footer": "ТИМОФЕЙ ТИМОШКИН / РЕЗЮМЕ",
@@ -92,24 +108,35 @@ DATA = {
         "profile": (
             "Sviluppatore frontend e di prodotto con esperienza commerciale. Realizzo prodotti web dal 2018, "
             "dall'idea e dall'MVP fino a un business operativo. Competenze principali in React, Next.js, TypeScript "
-            "e architettura frontend. Ho lavorato in team di prodotto organizzati per sprint, gestendo attività in Jira, "
-            "facendo code review delle merge request in GitLab e seguendo i rilasci end-to-end."
+            "e architettura frontend. Ho lavorato in team di prodotto a sprint, gestendo attività in Jira, facendo "
+            "code review delle merge request in GitLab e seguendo i rilasci end-to-end. Dal 2026 scrivo anche "
+            "software di sistema open source in Zig."
         ),
         "experience_h": "Esperienza e prodotti",
         "tex_title": "TEXSOFT / startup di prodotto - Lead Product Developer -> Sviluppatore di sistemi informativi web",
         "tex_date": "06.2025 - 07.2026",
         "tex_bullets": [
-            "Entrato nella fase startup come lead product developer, responsabile del lancio zero-to-one, "
-            "dell'architettura, delle priorità e della delivery. Dopo il lancio la startup è diventata un'azienda "
-            "autonoma; ruolo formale: Sviluppatore di sistemi informativi web.",
+            "Entrato nella fase startup come lead product developer, responsabile di lancio zero-to-one, "
+            "architettura, priorità e delivery fino a un processo di team ripetibile; collaborazione conclusa "
+            "quando la startup è diventata un'azienda autonoma (ruolo formale: Sviluppatore di sistemi informativi web).",
             "Realizzato un frontend commerciale di messaggistica real-time con Feature-Sliced Design: Next.js 15, "
             "React 18, TypeScript, TanStack Query e Zustand; messaggi WebSocket, chiamate audio / video LiveKit, "
             "anteprime file e flussi responsive per chat e gruppi.",
             "Lavorato in un ciclo commerciale a sprint: pianificazione e tracciamento in Jira, merge request e code "
             "review in GitLab, test E2E con Playwright, GitLab CI / CD, build Docker multi-stage e coordinamento dei rilasci.",
-            "Portato il prodotto da una fase iniziale a un processo di delivery di team ripetibile; conclusa la "
-            "collaborazione dopo che la startup è diventata un'azienda autonoma.",
         ],
+        "oss_title": "Software di sistema open source - Autore / Systems Engineer",
+        "oss_date": "2026 - Presente",
+        "blackwall": (
+            "Client VPN in Zig con un percorso dedicato per ogni app: VLESS con REALITY, Trojan, Shadowsocks e "
+            "VMess; stack TCP/IP, TLS 1.3 e HTTP/2 scritti da zero. macOS, Windows, Linux e Android da un'unica "
+            "codebase; ogni release è un solo file da 3 a 14 MB con aggiornamenti firmati."
+        ),
+        "rdc": (
+            "Desktop remoto in Zig per persone e agenti AI: qualsiasi browser si collega con un link o un codice di "
+            "9 cifre, peer to peer via WebRTC con ICE, DTLS e SCTP scritti in Zig; è anche un server MCP per Claude, "
+            "Codex e ChatGPT. L'intera app pesa circa 600 KB."
+        ),
         "ind_title": "Prodotti indipendenti - Fondatore / Product Engineer",
         "ind_date": "2024 - Presente",
         "favor_suffix": "(favor.lol -> favor.deals)",
@@ -117,14 +144,15 @@ DATA = {
             "Trasformata una mini app Web3 di referral in un marketplace attivo per contratti e accordi dentro Telegram: "
             "Next.js, integrazione Telegram, schede contratto, accordi diretti ed escrow, pagine SEO, importazione di "
             "contenuti Telegram e monetizzazione ibrida.",
-            "Il progetto di laurea è stato selezionato tra i sei migliori al demo day finale del percorso Startup as a Thesis di ROSBIOTECH (giugno 2025).",
+            "Progetto di laurea: selezionato tra i sei migliori al demo day finale del percorso Startup as a Thesis "
+            "di ROSBIOTECH (giugno 2025).",
         ],
         "loot_bullets": [
             "Co-realizzato con un partner backend un prodotto Telegram finanziato dalla pubblicità, occupandomi del "
             "frontend Next.js / TypeScript; fino a 3.822 utenti mensili e 2.000 azioni target completate.",
             "Integrato il frontend con un'API Go basata su PostgreSQL / Redis e distribuito tramite Docker / Dokploy; "
-            "44,3 mila impressioni di ricerca e 4,5 mila visite in un mese.",
-            "Validati acquisizione, monetizzazione pubblicitaria e unit economics con traffico reale e budget personale.",
+            "44,3 mila impressioni di ricerca e 4,5 mila visite in un mese. Validati acquisizione, monetizzazione "
+            "pubblicitaria e unit economics con traffico reale e budget personale.",
         ],
         "pilemida": "Sviluppato con un partner il frontend di una Telegram Mini App; il team è passato dall'idea a una release funzionante in 3 giorni.",
         "hostfi_title": "hostfi.app - video in tempo reale",
@@ -138,18 +166,24 @@ DATA = {
         "ros_title": "ROSBIOTECH - laboratorio di ingegneria e docenza",
         "ros_date": "2023 - 2026",
         "ros_bullets": [
-            "Assistente di laboratorio in ingegneria, prototipazione e tecnologie additive; docente di programmazione nel technopark universitario (10.2023 - 07.2024).",
-            "Docente part-time presso l'International College of Technology (02.2026 - 03.2026).",
+            "Assistente di laboratorio in ingegneria, prototipazione e tecnologie additive; docente di programmazione "
+            "nel technopark universitario (10.2023 - 07.2024). Docente part-time presso l'International College of "
+            "Technology (02.2026 - 03.2026).",
         ],
-        "additional": "<b>Esperienza aggiuntiva:</b> web studio - prima esperienza commerciale in team, 2 mesi nell'estate 2019.",
+        "additional": (
+            "<b>Altri lavori:</b> pinkyk.ink - sito di prenotazione per un'onicotecnica privata, HTML statico con GSAP "
+            "e markup SEO, online in un giorno (2026); researched.xyz - prodotto di ricerca sui wallet crypto in "
+            "Next.js; ALT - interfaccia di cambio RUB / USDT; blueberry.productions - sito di un artista basato "
+            "sull'API di Spotify; web studio - prima esperienza commerciale in team, 2 mesi nell'estate 2019."
+        ),
         "skills_h": "Competenze tecniche",
         "skills": [
             ("Frontend principale", "TypeScript, React 18 / 19, Next.js 15 / 16, App Router, SSR / ISR, HTML5, CSS, Tailwind CSS, Vite"),
             ("Architettura frontend", "Feature-Sliced Design (FSD), TanStack Query, Zustand, Zod, React Hook Form, sistemi di componenti, UI / UX responsive"),
             ("UI e integrazioni", "Framer Motion, Three.js / R3F, Recharts, Lottie, REST / OpenAPI, SSE, LiveKit / WebRTC, Telegram Mini Apps, TON / TonConnect"),
-            ("Backend di supporto", "Node.js, Go, Prisma / GORM, PostgreSQL, Redis, JWT, cron"),
+            ("Backend e sistemi", "Node.js, Go, Prisma / GORM, PostgreSQL, Redis, JWT, cron; Zig, TCP/IP, TLS 1.3, WebRTC, MCP"),
             ("Delivery e qualità", "Git / GitLab, merge request, code review, Jira, Playwright E2E, GitLab CI / CD, Docker / Compose, Dokploy"),
-            ("Workflow con AI", "Piano con Gemini / Antigravity -> revisione e integrazione manuale del piano MD -> implementazione con Codex -> revisione e correzione del git diff -> review indipendente di un agente Codex -> validazione dei rilievi e correzione dei problemi confermati -> apertura della MR"),
+            ("Workflow con AI", "Piano con Gemini / Antigravity -> revisione e integrazione manuale del piano MD -> implementazione con Codex -> revisione e correzione del git diff -> review indipendente di un agente Codex -> correzione dei rilievi confermati -> MR"),
         ],
         "education_h": "Formazione",
         "edu_1": "<b>Università Russa di Biotecnologia (ROSBIOTECH)</b> - studi universitari; Favor come progetto di laurea",
@@ -343,6 +377,25 @@ def build(lang: str, theme: str) -> None:
             [design.job_header(d["tex_title"], d["tex_date"], st)]
             + [design.bullet(text, st) for text in d["tex_bullets"]]
             + [Spacer(1, 1.2 * mm)]
+        )
+    )
+
+    story.append(
+        KeepTogether(
+            [
+                design.job_header(d["oss_title"], d["oss_date"], st),
+                Paragraph(
+                    f'<a href="https://blackwall.timoshkin.dev" color="{design.ACCENT_HEX}"><b>BLACKWALL</b></a>',
+                    st["subtitle"],
+                ),
+                design.bullet(d["blackwall"], st),
+                Paragraph(
+                    f'<a href="https://github.com/ANODs/RDC" color="{design.ACCENT_HEX}"><b>RDC</b></a>',
+                    st["subtitle"],
+                ),
+                design.bullet(d["rdc"], st),
+                Spacer(1, 1.1 * mm),
+            ]
         )
     )
 
