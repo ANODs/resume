@@ -472,12 +472,12 @@ def build_en() -> None:
                     st,
                 ),
                 Paragraph(
-                    f'<a href="https://hostfi.app" color="{ACCENT_HEX}"><b>hostfi.app - realtime video</b></a>',
+                    f'<a href="https://zvonilka.timoshkin.dev" color="{ACCENT_HEX}"><b>zvonilka.timoshkin.dev - video calls by link</b></a>',
                     st["subtitle"],
                 ),
                 bullet(
-                    "Built video conferencing with LiveKit client/server SDK: Next.js frontend and a separate LiveKit "
-                    "service in Docker Compose, with automated deployment through Dokploy.",
+                    "No install and no servers: direct WebRTC, encrypted signalling over public "
+                    "MQTT brokers, a Cloudflare relay as fallback and a Telegram Mini App.",
                     st,
                 ),
                 Spacer(1, 0.9 * mm),
